@@ -1,6 +1,6 @@
 const user = JSON.parse(localStorage.getItem('user'));
 if (!user || !user.accessToken) {
-  window.location.href = "signup.html";
+  window.location.href = "index.html";
 }
 
 // Display the user's details
@@ -14,5 +14,5 @@ document.getElementById('logout-btn').addEventListener('click', () => {
   localStorage.removeItem('user');
 
   // Redirect to the signup page
-  window.location.href = "signup.html";
+  window.location.href = "index.html";
 });

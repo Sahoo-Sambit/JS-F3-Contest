@@ -29,6 +29,13 @@ p{
     font-size: 64px;
     margin: 2rem; 
 }
+.body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 32px;
+    margin: 2rem; 
+}
 input{
     background-color: black;
     color: white;
